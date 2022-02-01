@@ -1,0 +1,50 @@
+.card {
+  background-color: black;
+  margin: 2em;
+  width: 30vw;
+  height: 50vh;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 1em black;
+}
+
+.card img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.card h2 {
+  color: white;
+  margin: 1em;
+}
+
+.card h3 {
+  color: white;
+  margin: 0;
+  text-overflow: ellipsis;
+}
+
+.card h4 {
+  color: #e0e0e0;
+  text-overflow: ellipsis;
+}
+
+.info {
+  width: 50%;
+  margin: 2em 5em 0 1em;
+  padding: 0.5em;
+  background-color: #383838;
+  border-radius: 0.5em;
+  align-self: left;
+  overflow: hidden;
+  white-space: nowrap;
+}
